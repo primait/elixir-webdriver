@@ -30,11 +30,11 @@ defmodule WebDriver.Mixfile do
   # { :foobar, "0.1", git: "https://github.com/elixir-lang/foobar.git" }
   defp deps do
     [
-      {:ibrowse,   github: "cmullaparthi/ibrowse", tag: "v4.1.2"},
+      {:ibrowse,   github: "cmullaparthi/ibrowse", tag: "v4.3"},
       {:httpotion, "~> 2.1"},
       {:jazz,      "~> 0.2.1"},
       {:mock,      github: "jjh42/mock", only: :test},
-      {:earmark,   "~>0.1.10", only: :dev},
+      {:earmark,   "~>0.1.19", only: :dev},
       {:ex_doc,    "~>0.6", only: :dev}
      ]
   end
